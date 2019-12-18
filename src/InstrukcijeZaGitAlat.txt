@@ -1,0 +1,14 @@
+1. https://github.com/ -> registracija i logovanje da se uvjerite da imate korisnički nalog
+2. Kakve to veze ima sa pisanjem koda ? 
+  - git alat
+3. Otvorimo NetBeans  i kreiramo Java projekat 
+4. Inicijalizacija Git repository(skladište) u kreirani projekat
+ - Selektujemo projekat u NetBeans -> Team -> Git -> Initialize repository
+
+5. Kreiramo .java fajlove odnosno programiramo(pišemo linije koda)
+ - commit
+
+6. Push
+ - push
+
+Mene možete pronaći : emirPuskaITAkademija
