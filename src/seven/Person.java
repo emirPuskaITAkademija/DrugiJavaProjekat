@@ -24,6 +24,9 @@ public  class Person extends Object {
         counter++;
     }
 
+ 
+
+    
     public Person(String name, String surname, int age) {
         this.name = name;
         this.surname = surname;
