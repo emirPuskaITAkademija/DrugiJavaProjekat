@@ -1,4 +1,8 @@
-package seven.abstraction;
+package nine.abstraction;
+//Koncepti OO programming
+//1. Enkapsulacija
+
+import seven.abstraction.*;
 //Koncepti OO programming
 //1. Enkapsulacija
 //2. Nasljeđivanje
@@ -10,7 +14,7 @@ public class ShapeTester {
         ShapeTester shapeTester = new ShapeTester();
         Shape shape1 = new Circle(0, 0, 3.0);
         Shape shape2 = new Rectangle(0, 0, 10.0, 20.7);
-        shapeTester.shapeProcessor(shape2);
+        shapeTester.shapesProcessor(shape1, shape2);
         shape2 = new Circle(0, 0, 4.0);
     }
 
@@ -25,7 +29,6 @@ public class ShapeTester {
     void shapeProcessor(Shape shape) {
         shape.draw();
         double area = shape.calculateArea();
-        System.out.println(area);
-    }
+        System.out.println(area);    }
 
 }

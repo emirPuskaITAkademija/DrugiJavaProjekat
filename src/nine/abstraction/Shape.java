@@ -1,4 +1,6 @@
-package seven.abstraction;
+package nine.abstraction;
+
+import seven.abstraction.*;
 
 public abstract class Shape {
     private static int counter = 0;
