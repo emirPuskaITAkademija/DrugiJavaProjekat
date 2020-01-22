@@ -7,7 +7,7 @@ package seven;
 //Koncept 
 //OVERLOAD ili preklapanje po broju parametara ili po tipu
 //OVERRIDE ili nadjačavanja
-public  class Person extends Object {
+public  class Person extends Object  {
 
     //1. static field ili properties
     private static int counter = 0;
@@ -75,6 +75,8 @@ public  class Person extends Object {
         //return name +" " + surname;//svakako se u pozadini pozove StringBuilder
         return sb.toString();
     }
+    
+    
 
     public static void printCounter(Person p) {
         System.out.println("Counter = " + counter);
