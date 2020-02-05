@@ -1,6 +1,7 @@
 package advanced.three;
 
-import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Pravimo program koji će iz konzole čitati listu korisnika. 1. kreirati klasu
@@ -19,7 +20,8 @@ public class ThreeExecutor {
 
     public static void main(String[] args) {
         PersonConsoleReader consoleReader = new PersonConsoleReader();
-        Person p2 = consoleReader.readPerson();
-        System.out.println(p2.toString());
+        List<Person> persons = new ArrayList<Person>();
+        Person p2 = consoleReader.readPerson(System.in);
+        persons.add(p2);
     }
 }
