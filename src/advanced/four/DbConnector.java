@@ -6,7 +6,6 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import javax.activation.DataSource;
 //1. dodati library od dotične baze tzv. connector 
 //2. Connector kojeg cemo dobiti iz DriverManager
 //3. Statement objekat ćemo dobiti iz prethodno dobijenog Connector
